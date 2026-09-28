@@ -1,7 +1,6 @@
 import os
 from mcp.server.fastmcp import FastMCP
 
-Initialisation du serveur FastMCP
 mcp = FastMCP("LinkedIn MCP")
 
 @mcp.tool()
