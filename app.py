@@ -10,5 +10,5 @@ def get_server_status() -> str:
     return "Le serveur MCP LinkedIn est opérationnel et connecté à Perisclaw."
 
 if __name__ == "__main__":
-    # Lancement du serveur SSE FastMCP
-    mcp.run(transport="sse")
+    port = int(os.environ.get("PORT", 10000))
+    mcp.run(transport="sse", host="0.0.0.0", port=port)
