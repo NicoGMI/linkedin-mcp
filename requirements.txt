@@ -1,4 +1,4 @@
 mcp<2
-⁠ requests
-⁠ uvicorn
-⁠ fastapi
+requests
+uvicorn
+fastapi
